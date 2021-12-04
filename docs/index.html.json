@@ -2,17 +2,39 @@
  "_dirname": "{_root}",
  "_filename": "{_root}index.html",
  "_flags": {
-  "body": {
+  "about": {
    "form": "markdown",
+   "trim": "ends"
+  },
+  "body": {
    "trim": "ends"
   },
   "css": {
    "same": "append"
   },
+  "date": {
+   "trim": "ends"
+  },
   "head": {
    "trim": "ends"
   },
   "html": {
+   "trim": "ends"
+  },
+  "more": {
+   "form": "markdown",
+   "trim": "ends"
+  },
+  "notes1": {
+   "form": "markdown",
+   "trim": "ends"
+  },
+  "notes2": {
+   "form": "markdown",
+   "trim": "ends"
+  },
+  "notes3": {
+   "form": "markdown",
    "trim": "ends"
   },
   "title": {
@@ -24,9 +46,15 @@
  "_root": "./",
  "_site": "{_root}",
  "_sourcename": "index.^.html",
- "body": "<h2 id=\"welcome\">Welcome</h2>\n<p>Here is a web page rendered from markdown.</p>\n",
- "css": "\n/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}\n\nbody\t{background:#f7f4fd; font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:#444; width:100%; padding:50px;}\nh1\t\t{font-size:4em; font-weight:normal; color:#1400ff;}\nh2\t\t{font-size:2em; font-weight:normal;}\n\na\t\t{color:#1400ff;}\n\na.bar\t{color:#f7f4fd; background-color:#3a3a3a; border-radius:4px; padding:5px; text-decoration:none; border-bottom:none;}\na.bar:hover\t{background-color:#1400ff; border-bottom:none;}\n\n\n.nav\t{display:inline-block; vertical-align:top; width:50%;}\n.nav:nth-of-type(2)\t{text-align:right;}\n\n.line, .blog_wrap\t{border-top:1px dashed #1400ff; margin-top:40px; margin-bottom:40px; position:relative;}\n.blog_info\t{position:absolute; right:10px; top:10px;}\n",
+ "about": "<p><strong>Play Music Project</strong> wants to enable all comers to make, compose and improvise music in a collaborative, experimental and supportive environment - just for fun!</p>\n",
+ "body": "<div class=\"post_img_wrap\">\n\t<div class=\"post_img\"></div>\n</div>\n<div class=\"post_wrap\">\n\t<div class=\"post_date\">\n\t\t{date}\n\t\t<div class=\"notes_wrap\">{notes1}</div>\n\t</div><div class=\"post_text\">\n\t\t<div class=\"about_wrap\">{about}</div>\n\t\t{more}\n\t\t<div class=\"notes_wrap\">{notes3}</div>\n\t</div>\n</div>",
+ "css": "\n/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}\n\nbody, html\t{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; width:100%; font-weight:normal; font-style:normal;}\nbody\t{background:#efefef; font-family:monospace, sans-serif; font-size:15px; line-height:1.5em; color:#0b1728; min-width:100%; min-height:100%;}\nhtml\t{height:100%;}\nh1\t\t{font-size:4em; font-weight:normal; color:#1400ff;}\nh2\t\t{font-size:2em; font-weight:normal;}\nh3\t\t{font-size:1.3em; font-weight:bold;}\na\t\t{color:#1400ff; text-decoration:none;}\np\t\t{margin:1.5em 0;}\nimg\t\t{max-width:416px;}\n\n.post_wrap\t{max-width:1366px; margin:0 auto; width:98%;}\n.post_img_wrap\t{background-color:#0b1728; margin:0 auto; padding:1em 2em 3em 2em; width:100%;}\n.post_img\t{background:url('{_dirname}/data/play_blanc.png') center no-repeat; background-size:contain; width:525px; height:300px; margin:0 auto;}\n.post_date,\n.post_text\t{display:inline-block; vertical-align:top; width:50%; padding:2em;}\n\n.about_wrap\t{font-size:18px;}\n.notes_wrap\t{font-size:14px;}\n\n.date_top\t{text-transform:uppercase; margin:1.5em 0;}\n.date_wrap_a,\n.date_wrap\t{border:1px solid #0b1728; padding:1em;}\n.date_wrap\t{border-top:0;}\n\n.date_title\t{font-size:14px;}\n.date_text\t{margin-top:0.8em;}\n.date_text span {background-color:#f9ffc3; color:#1967c9; font-weight:bold;}\n\n\n/*\tPHONES & STUFF\n\t============================================= */\n\t\n@media only screen and (-webkit-min-device-pixel-ratio: 1.5),\nonly screen and (-o-min-device-pixel-ratio: 3/2),\nonly screen and (min--moz-device-pixel-ratio: 1.5),\nonly screen and (min-device-pixel-ratio: 1.5) {\n\n*\t\t{width:100%; height:auto; min-height:1px; max-height:999999px;}\nbody\t{font-size:3rem;}\n.post_img_wrap\t{padding:1em 0 2em 0;}\n.post_img\t{width:700px; height:400px;}\n.post_date,\n.post_text\t{display:block; width:100%; padding:0 1em;}\n.date_title,\n.notes_wrap,\n.about_wrap\t{font-size:3rem;}\n}\n",
+ "date": "<div class=\"date_top\">workshop dates</div>\n<div class=\"date_wrap_a\">\n\t<div class=\"date_title\">Monday, <b>6th December</b> 2021, 1.30 - 3.30pm</div>\n\t<div class=\"date_text\">Exploring composition and improvisation using graphic score with <span>Kathy Dyson</span></div>\n</div>\n<div class=\"date_wrap\">\n\t<div class=\"date_title\">Monday, <b>13th December</b> 2021, 1.30 - 3.30pm</div>\n\t<div class=\"date_text\">Guitar playing, effects and maintenance with <span>David Carpenter</span></div>\n</div>\n<div class=\"date_wrap\">\n\t<div class=\"date_title\">Monday, <b>20th December</b> 2021, 1.30 - 3.30pm</div>\n\t<div class=\"date_text\">How to read music notes with <span>shi Blank</span></div>\n</div>",
  "head": "<title>{title}</title>\n<style>\n{css}\n</style>",
  "html": "<html>\n<head>{head}</head>\n<body>{body}</body>\n</html>",
- "title": "This is the title"
+ "more": "<p>We are running a pilot in the next three weeks at FUSE Art Space in Rawson Place, Bradford, BD13QQ.</p>\n<p>These workshops are entirely free and we welcome your participation and collaboration in whatever way you choose. You can bring instruments or just yourselves. The participants will mould the shape of the music and the way the workshops develop.</p>\n<p>After Christmas we will review the pilot and take the next steps which include plans to initiate the workshops across the district with different leaders.</p>\n<p><em>Please be in touch to let us know if you are coming and if you have any questions.</em></p>\n",
+ "notes1": "<p><strong>Covid:</strong> Should the rules change around Covid we will aim to notify before or early on the day of the events.</p>\n<p><strong>Covid Safety:</strong> The space has hand sanitiser available. There is not much ventilation, but we can open the door to ventilate if we choose.</p>\n<p><strong>Mask wearing will be required.</strong></p>\n",
+ "notes2": "<p>We are inviting approx 10 people, and many of you will know each other already.<br>We don&#39;t expect that they will all be able to come.<br>We anticipate there being about 10 people in the space.<br>We think that is a covid safe number for the space.</p>\n",
+ "notes3": "<p>The space is not very warm - please wrap up!<br/> \nTea and coffee making facilities are available.<br>The space has a single toilet.<br>We will start setting up from 1pm, please come early to help if you like.</p>\n",
+ "title": "Play Music Project"
 }
