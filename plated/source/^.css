@@ -47,7 +47,7 @@ only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
 
 *		{width:100%; height:auto; min-height:1px; max-height:999999px;}
-body	{font-size:3rem;}
+body	{font-size:3rem; padding-bottom:3em;}
 .post_img_wrap	{padding:1em 0 2em 0;}
 .post_img	{width:700px; height:400px;}
 .post_date,
