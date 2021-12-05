@@ -53,6 +53,7 @@ body	{font-size:3rem;}
 .post_date,
 .post_text	{display:block; width:100%; padding:0 1em;}
 .date_title,
+.date_text,
 .notes_wrap,
 .about_wrap	{font-size:3rem;}
 }
