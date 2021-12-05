@@ -1,5 +1,8 @@
+<!DOCTYPE html>
 <html>
-<head><title>Play Music Project</title>
+<head><meta charset="UTF-8" />
+<title>Play Music Project</title>
+<meta name="theme-color" content="#0b1728">
 <style>
 
 /*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
@@ -19,6 +22,13 @@ img		{max-width:416px;}
 .post_img	{background:url('.//data/play_blanc.png') center no-repeat; background-size:contain; width:525px; height:300px; margin:0 auto;}
 .post_date,
 .post_text	{display:inline-block; vertical-align:top; width:50%; padding:2em;}
+
+.post_img_wrap	{background:linear-gradient(-69deg,#0b1728,#5e5256,#23d5c4,#0b1728,#6f445a); animation:play 300s ease-in infinite; background-size:600%;}
+@keyframes play {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
 
 .about_wrap	{font-size:18px;}
 .notes_wrap	{font-size:14px;}

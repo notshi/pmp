@@ -18,6 +18,13 @@ img		{max-width:416px;}
 .post_date,
 .post_text	{display:inline-block; vertical-align:top; width:50%; padding:2em;}
 
+.post_img_wrap	{background:linear-gradient(-69deg,#0b1728,#5e5256,#23d5c4,#0b1728,#6f445a); animation:play 300s ease-in infinite; background-size:600%;}
+@keyframes play {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+
 .about_wrap	{font-size:18px;}
 .notes_wrap	{font-size:14px;}
 
