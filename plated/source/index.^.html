@@ -12,12 +12,22 @@ Play Music Project
 </div>
 <div class="post_wrap">
 	<div class="post_date">
-		{date}
-		<div class="notes_wrap">{notes1}</div>
-	</div><div class="post_text">
 		<div class="about_wrap">{about}</div>
-		{more}
-		<div class="notes_wrap_high">{notes3}</div>
+		{about1}
+	</div><div class="post_text">
+		{youtube}
+	</div>
+</div>
+<div class="per_wrap">
+	<div class="post_wrap">
+		<div class="post_date">
+			{date}
+			<div class="notes_wrap">{notes1}</div>
+		</div><div class="post_text">		
+			{more}
+			<div class="notes_wrap_high">{notes3}</div>
+			{notes4}
+		</div>
 	</div>
 </div>
 <div class="pro_wrap">
@@ -25,6 +35,9 @@ Play Music Project
 		{dec6}
 	</div>
 </div>
+
+#^youtube
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/pCyok8IcMnc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #^date trim=ends
 
@@ -43,8 +56,6 @@ Play Music Project
 </div>
 
 #^notes1 trim=ends form=markdown
-**Covid:** Should the rules change around Covid we will aim to notify before or early on the day of the events.
-
 **Covid Safety:** The space has hand sanitiser available. There is not much ventilation, but we can open the door to ventilate if we choose.
 
 **Mask wearing will be required.**
@@ -63,12 +74,20 @@ Tea and coffee making facilities are available.
 The space has a single toilet.  
 We start setting up from 1pm, do come early to help if you like.
 
+#^notes4 trim=ends form=markdown
+**Covid:** Should the rules change around Covid we will aim to notify before or early on the day of the events.
+
 #^about trim=ends form=markdown
 
-**Play Music Project** wants to enable all comers to make, compose and improvise music in a collaborative, experimental and supportive environment - just for fun!
+**Play Music Project** wants to enable all comers to make, compose and improvise music in a collaborative, experimental and supportive environment.
+
+#^about1 trim=ends form=markdown
+This video shows what we're hoping to make. If you'd like to see this happen too, come help us build it!
+
+Email caprenter at gmail.com for more information.
 
 #^more trim=ends form=markdown
-*We are running a pilot in the next three weeks at FUSE Art Space in Rawson Place, Bradford, BD13QQ.*
+*We ran a pilot at FUSE Art Space in Rawson Place, Bradford, BD13QQ.*
 
 These workshops are entirely free and we welcome your participation and collaboration in whatever way you choose. You can bring instruments or just yourselves. The participants will mould the shape of the music and the way the workshops develop.
 

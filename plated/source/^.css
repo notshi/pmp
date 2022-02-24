@@ -11,9 +11,11 @@ h3		{font-size:1.3em; font-weight:bold;}
 a		{color:#1400ff; text-decoration:none;}
 p		{margin:1.5em 0;}
 img		{max-width:960px;}
+iframe	{height:315px;}
 
 .center		{text-align:center; margin:0 auto;}
 .pro_wrap	{width:100%; background:#d7d9dd; padding:4em 0;}
+.per_wrap	{width:100%; background:#e6e8eb; padding:0;}
 .post_wrap	{max-width:1366px; margin:0 auto; width:98%;}
 .post_img_wrap	{background-color:#0b1728; margin:0 auto; padding:1em 2em 3em 2em; width:100%;}
 .post_img	{background:url('{_dirname}/data/play_blanc.png') center no-repeat; background-size:contain; width:525px; height:300px; margin:0 auto;}
@@ -27,7 +29,7 @@ img		{max-width:960px;}
     100% {background-position:0% 50%;}
 }
 
-.about_wrap	{font-size:16px; line-height:1.5em;}
+.about_wrap	{font-size:24px; line-height:1.35em;}
 .notes_wrap	{font-size:14px;}
 .notes_wrap_high	{padding:1px 2em; background:#dbdeea;}
 
