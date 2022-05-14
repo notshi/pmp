@@ -18,12 +18,21 @@ Play Music Project
 		{youtube}
 	</div>
 </div>
+<div class="now_wrap">
+	<div class="post_wrap">
+		<div class="post_date">
+		</div><div class="post_text">
+			{now_head}
+			{now_text}
+		</div>
+	</div>
+</div>
 <div class="per_wrap">
 	<div class="post_wrap">
 		<div class="post_date">
 			{date}
 			<div class="notes_wrap">{notes1}</div>
-		</div><div class="post_text">		
+		</div><div class="post_text">
 			{more}
 			<div class="notes_wrap_high">{notes3}</div>
 			{notes4}
@@ -39,9 +48,32 @@ Play Music Project
 #^youtube
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/pCyok8IcMnc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+#^now_flyer trim=ends
+<img src="{_dirname}/data/play_fuse.png">
+
+#^now_head trim=ends
+<div class="date_top">events</div>
+
+#^now_text trim=ends form=markdown
+Saturday, <b>4th June</b> 2022, 3.00 - ?.??pm
+
+We are having a grand opening and you are invited!
+
+We will soon be launching a continuing series of free/low-cost activities and resources, each of which you learn about on the day.
+
+<i>Activities like:</i>
+
+- Give-it-a try instrument library
+- All-abilities & any-artform jamming (<i>like open mic</i>)
+- Peer-led workshops
+
+<b>This event is FREE to attend & participate.</b>
+
+Taster Workshops // DJ Sets // Live music by the Kathy & John Jazz Duo // The Collector on vinyl // Live open jam // Exciting Bar stocked with local & exotic Drink and Snacks
+
 #^date trim=ends
 
-<div class="date_top">workshop dates</div>
+<div class="date_top">previous workshops</div>
 <div class="date_wrap_a">
 	<div class="date_title">Monday, <b>6th December</b> 2021, 1.30 - 3.30pm</div>
 	<div class="date_text">Exploring composition and improvisation using graphic score with <span>Kathy Dyson</span></div>
