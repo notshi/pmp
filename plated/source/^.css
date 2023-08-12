@@ -9,11 +9,14 @@ h1		{font-size:4em; font-weight:normal; color:#1400ff;}
 h2		{font-size:2em; font-weight:normal;}
 h3		{font-size:1.3em; font-weight:bold;}
 a		{color:#1400ff; text-decoration:none;}
-p		{margin:1.5em 0;}
+p		{margin:1.5em 0; word-break:break-word;}
 img		{max-width:960px;}
 
 .center		{text-align:center; margin:0 auto;}
 .pro_wrap	{width:100%; background:#d7d9dd; padding:4em 0;}
+.bmt_wrap	{width:100%; background: url('{_dirname}/data/BMTlogoSplash.jpg') 100% 50% repeat; padding:0;}
+.bsa_wrap	{width:100%; background: url('{_dirname}/data/bdsoundartists.jpg') 100% 50% repeat; padding:0;}
+.bsg_wrap	{width:100%; background: url('{_dirname}/data/bdstitchandglitch.jpg') center repeat; padding:0;}
 .now_wrap	{width:100%; background: url('{_dirname}/data/play_fuse.png') center repeat; padding:0;}
 .per_wrap	{width:100%; background:#e6e8eb; padding:0;}
 .post_wrap	{max-width:1366px; margin:0 auto; width:98%;}
@@ -23,7 +26,8 @@ img		{max-width:960px;}
 .post_date,
 .post_text	{display:inline-block; vertical-align:top; width:50%; padding:2em;}
 .post_file  {display:block; width:100%;}
-.now_wrap .post_text      {background:#fdfdfd;}
+.post_text  {background:#fdfdfd;}
+.post_text.alpha  {background:transparent;}
 
 .post_img_wrap	{background:linear-gradient(-69deg,#2360d5,#0b1728,#5e5256,#23d5c4,#0b1728,#6c0e97); animation:play 300s ease-in infinite; background-size:600%;}
 @keyframes play {
@@ -35,6 +39,8 @@ img		{max-width:960px;}
 .about_wrap	{font-size:24px; line-height:1.35em; width:95%;}
 .notes_wrap	{font-size:14px;}
 .notes_wrap_high	{padding:1px 2em; background:#dbdeea;}
+
+.header		{font-weight:bold; text-transform:uppercase; margin:1.5em 0;}
 
 .date_top	{text-transform:uppercase; margin:1.5em 0;}
 .date_wrap_a,

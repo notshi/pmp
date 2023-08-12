@@ -14,8 +14,35 @@ Play Music Project
 	<div class="post_date">
 		<div class="about_wrap">{about}</div>
 		{about1}
-	</div><div class="post_text">
+	</div><div class="post_text alpha">
 		{youtube}
+	</div>
+</div>
+<div class="bmt_wrap">
+	<div class="post_wrap">
+		<div class="post_text">
+			{bmt_head}
+			{bmt_text}
+		</div><div class="post_date">
+		</div>
+	</div>
+</div>
+<div class="bsa_wrap">
+	<div class="post_wrap">
+		<div class="post_date">
+		</div><div class="post_text">
+			{bsa_head}
+			{bsa_text}
+		</div>
+	</div>
+</div>
+<div class="bsg_wrap">
+	<div class="post_wrap">
+		<div class="post_text">
+			{bsg_head}
+			{bsg_text}
+		</div><div class="post_date">
+		</div>
 	</div>
 </div>
 <div class="now_wrap">
@@ -32,7 +59,7 @@ Play Music Project
 		<div class="post_date">
 			{date}
 			<div class="notes_wrap">{notes1}</div>
-		</div><div class="post_text">
+		</div><div class="post_text alpha">
 			{more}
 			<div class="notes_wrap_high">{notes3}</div>
 			{notes4}
@@ -51,7 +78,43 @@ Play Music Project
 </div>
 
 #^youtube
-<iframe width="100%" style="min-height:315px" src="https://www.youtube-nocookie.com/embed/pCyok8IcMnc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" style="min-height:315px" src="https://www.youtube-nocookie.com/embed/fWJJGOiMt1g?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#^bmt_head trim=ends
+<div class="header">bingley music town</div>
+
+#^bsa_head trim=ends
+<div class="header">bradford sound artists</div>
+
+#^bsg_head trim=ends
+<div class="header">bradford stitch &amp; glitch</div>
+
+#^bmt_text trim=ends form=markdown
+We bring together the people that care about music in our area, to make sure there are great musical opportunities for everyone now, and into the future.
+
+Wanna help that happen? By becoming a member you get a formal say in what we do as a group and how we do it.
+
+Membership is open to individuals (over 18) and organisations. 
+https://bingleymusictown.org.uk/join
+
+
+#^bsa_text trim=ends form=markdown
+A place to talk about how you use sound as art/performance.
+Or to ask questions so that you can start.
+A resource sharing opportunity; to read, watch films together, and listen.
+We can organise field trips, like doing location recording around Bradford District.
+
+We meet every third Wednesday of the month at Fuse Art Space.
+https://bradfordsoundartists.org.uk/
+
+#^bsg_text trim=ends form=markdown
+We are a grassroots, DIY collective experimenting with sound & sound making electronics in an informal sharing and learning environment.
+Beginners with no experience but an interest are especially welcomed.
+
+We primarily run make-and-do sessions – think knit & natter but with circuits.
+
+Meetings are on the first Saturday of the month at Fuse Art Space.
+https://bradfordsoundwomen.wordpress.com/
 
 #^now_flyer trim=ends
 <img src="{_dirname}/data/play_fuse.png">
@@ -76,8 +139,8 @@ We will soon be launching a continuing series of free/low-cost activities and re
 
 Taster Workshops // DJ Sets // Live music by the Kathy & John Jazz Duo // The Collector on vinyl // Live open jam // Exciting Bar stocked with local & exotic Drink and Snacks
 
-#^date trim=ends
 
+#^date trim=ends
 <div class="date_top">previous workshops</div>
 <div class="date_wrap_a">
 	<div class="date_title">Monday, <b>6th December</b> 2021, 1.30 - 3.30pm</div>
@@ -91,6 +154,7 @@ Taster Workshops // DJ Sets // Live music by the Kathy & John Jazz Duo // The Co
 	<div class="date_title">Monday, <b>20th December</b> 2021, 1.30 - 3.30pm</div>
 	<div class="date_text">How to read music notes with <span>shi Blank</span></div>
 </div>
+
 
 #^notes1 trim=ends form=markdown
 **Covid Safety:** The space has hand sanitiser available. There is not much ventilation, but we can open the door to ventilate if we choose.
