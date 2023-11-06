@@ -18,6 +18,7 @@ img		{max-width:960px;}
 .bsa_wrap	{width:100%; background: url('{_dirname}/data/bdsoundartists.jpg') 100% 50% repeat; padding:0;}
 .bsg_wrap	{width:100%; background: url('{_dirname}/data/bdstitchandglitch.jpg') center repeat; padding:0;}
 .now_wrap	{width:100%; background: url('{_dirname}/data/play_fuse.png') center repeat; padding:0;}
+.cyc_wrap	{width:100%; background: url('{_dirname}/data/CyclicSoundsFlyerSocials.jpg') center repeat; padding:0;}
 .per_wrap	{width:100%; background:#e6e8eb; padding:0;}
 .post_wrap	{max-width:1366px; margin:0 auto; width:98%;}
 .post_img_wrap	{background-color:#0b1728; margin:0 auto; padding:1em 2em 3em 2em; width:100%;}

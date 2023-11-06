@@ -18,6 +18,15 @@ Play Music Project
 		{youtube}
 	</div>
 </div>
+<div class="cyc_wrap">
+	<div class="post_wrap">
+		<div class="post_date">
+		</div><div class="post_text">
+			{cyc_head}
+			{cyc_text}
+		</div>
+	</div>
+</div>
 <div class="bmt_wrap">
 	<div class="post_wrap">
 		<div class="post_text">
@@ -80,6 +89,9 @@ Play Music Project
 #^youtube
 <iframe width="100%" style="min-height:315px" src="https://www.youtube-nocookie.com/embed/fWJJGOiMt1g?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+#^cyc_head trim=ends
+<div class="header">event - cyclic sounds</div>
+
 #^bmt_head trim=ends
 <div class="header">bingley music town</div>
 
@@ -88,6 +100,37 @@ Play Music Project
 
 #^bsg_head trim=ends
 <div class="header">bradford stitch &amp; glitch</div>
+
+#^cyc_text trim=ends form=markdown
+
+Bradford Sound Artists present an evening of live music.
+
+**Friday 1st December 2023 7pm - 11pm** ( First act 7:30pm )  
+Fuse Art Space, 7 Rawson Place, Bradford BD1 3JP  
+[Get Tickets](https://www.eventbrite.co.uk/e/cyclic-sounds-tickets-749596763097) Pay What You Feel. *Donations go to Fuse Art Space*
+
+**The Collector** will be DJing between the acts throughout the evening.
+
+**Thunkist**  
+Electronics, loops and break-beats from Simon East. Members of the audience will be able to control how elements of each song are played, taking audience interaction to a new place
+
+**The Argent Grub**  
+Sometimes loud · Sometimes quiet · Sometimes loud. Expect guitars, left-field acoustic songs, post-rock excursions, and ambient and experimental soundscapes. Reworkings of David Carpenter's The Argent Grub songs for a full live band
+
+**Isocline**  
+Dreamy ambient tracks with live violin loops and motion controlled effects by Alice Gilmour and Simon East
+
+**Terry Riley’s "In C"**  
+Full live band, led by Shi Blank, performing this classic minimalist piece written by Terry Riley in 1964. The piece consists of 53 short musical phrases. Each phrase may be repeated an arbitrary number of times at the discretion of each musician.
+
+*Performed by*  
+    Shi Blank - musician, game designer, zine maker and podcaster  
+    Alice Gilmour - musician, sound designer and podcaster  
+    Liz Narey- folk singer,songwriter, guitar player, and teacher  
+    Simon East - sound artist and interactive performance composer  
+    The Collector - vinyl record DJ  
+    David Carpenter - musician and composer AKA The Argent Grub
+
 
 #^bmt_text trim=ends form=markdown
 We bring together the people that care about music in our area, to make sure there are great musical opportunities for everyone now, and into the future.
@@ -122,7 +165,7 @@ https://bradfordsoundwomen.wordpress.com/
 <img src="{_dirname}/data/play_fuse.png">
 
 #^now_head trim=ends
-<div class="date_top">events</div>
+<div class="date_top"><b>event</b></div>
 
 #^now_text trim=ends form=markdown
 Saturday, <b>4th June</b> 2022, 3.00 - ?.??pm
